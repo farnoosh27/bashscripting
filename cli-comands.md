@@ -22,7 +22,7 @@ and if you would like to simply have the number of occurance of some pattern cou
 ```
 grep -c "command" renamedfile.txt
 ```
-## what is piping?
+## piping?
 
 Piping in Linux and Unix-like operating systems is a fundamental concept that enables you to take the output of one command and use it as the input for another command
 
