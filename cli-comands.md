@@ -14,3 +14,7 @@ find: The find command is used for locating files and directories based on vario
 ## what is piping?
 
 Piping in Linux and Unix-like operating systems is a fundamental concept that enables you to take the output of one command and use it as the input for another command
+
+```
+find /Users/farnoushazour/Downloads/personal_project/bashscripting -type f -name "renamedfile.txt" -exec cat {} \; | grep -c "command"
+```
