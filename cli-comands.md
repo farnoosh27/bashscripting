@@ -1,3 +1,9 @@
+## ls
+The ls command lists files in a directory.
+* ls -l (long format)
+ * ls -a (including hidden files)
+ * ls -h (human-readable sizes)
+
 ## find
 The following commands searches for any file (f) in the given path in which there .docx extension. 
 ```
