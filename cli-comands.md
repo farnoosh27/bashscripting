@@ -18,6 +18,10 @@ find: The find command is used for locating files and directories based on vario
 ```
  grep "command" renamedfile.txt
 ```
+and if you would like to simply have the number of occurance of some pattern counted, you can use the following command
+```
+grep -c "command" renamedfile.txt
+```
 ## what is piping?
 
 Piping in Linux and Unix-like operating systems is a fundamental concept that enables you to take the output of one command and use it as the input for another command
