@@ -1,7 +1,19 @@
-
 #!/bin/bash
-
-echo "Please enter your name:"
+echo "What's your name?"
 read name
 
-echo "Hello, $name! Nice to meet you. Happy to hear that you are here to learn about bash scripting"
+current_date=$(date)
+echo "Hello, $name!today's date is $current_date" 
+
+echo "How old are you $name"?
+read age
+
+if [ $age -ge 19 ]; then
+    echo "you're an adult"
+elif [ $age -eq 18 ]; then
+    echo "you are at the verge"
+else 
+    echo "you're not an adult"
+fi
+
+
