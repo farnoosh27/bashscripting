@@ -15,6 +15,7 @@ find: The find command is used for locating files and directories based on vario
 
 Piping in Linux and Unix-like operating systems is a fundamental concept that enables you to take the output of one command and use it as the input for another command
 
+The pipe is not a separate command-line utility itself; it's a shell feature that facilitates communication between commands. It's commonly used in Unix-like operating systems (such as Linux and macOS) and is available in various command-line shells like Bash, Zsh, and others.
 ```
 find /Users/farnoushazour/Downloads/personal_project/bashscripting -type f -name "renamedfile.txt" -exec cat {} \; | grep -c "command"
 ```
