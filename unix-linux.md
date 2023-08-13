@@ -1,5 +1,22 @@
+## Unix vs Linux
+Unix:
 
-Environmental Variable:
+Unix is an operating system family that was originally developed in the 1960s by AT&T's Bell Labs.
+It is a proprietary operating system, and various versions of Unix were developed by different organizations, including AT&T, IBM, Sun Microsystems, and more.
+Unix follows standards and specifications outlined in the Single UNIX Specification (SUS) or POSIX (Portable Operating System Interface), which define the behavior and functionality expected from Unix-like operating systems.
+Examples of Unix-based operating systems include AIX (IBM), Solaris (formerly Sun Microsystems), and HP-UX (Hewlett-Packard).
+Linux:
+
+Linux is a Unix-like operating system kernel developed by Linus Torvalds in 1991.
+It is open-source and freely available, allowing anyone to view, modify, and distribute its source code.
+While Linux is a kernel, it is often paired with other components (such as the GNU userland utilities) to create complete operating systems known as Linux distributions or distros.
+Popular Linux distributions include Ubuntu, CentOS, Debian, Fedora, and Red Hat Enterprise Linux.
+So, in essence, both Unix and Linux are operating systems, but Unix refers to a family of operating systems that share certain standards and concepts, while Linux refers to a specific kernel that can be combined with other components to create Unix-like operating systems known as Linux distributions.
+
+
+
+
+## Environmental Variable:
 An environmental variable, such as the PATH variable, is a named value that holds information used by the operating system and programs to determine various aspects of their operation. The PATH variable specifically contains a list of directory paths where the shell (command-line interface) searches for executable files whenever a command is entered.
 
 Purpose of the PATH Environment Variable:
