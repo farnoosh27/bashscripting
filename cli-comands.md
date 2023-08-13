@@ -30,3 +30,10 @@ The pipe is not a separate command-line utility itself; it's a shell feature tha
 ```
 find /Users/farnoushazour/Downloads/personal_project/bashscripting -type f -name "renamedfile.txt" -exec cat {} \; | grep -c "command"
 ```
+
+## zcat
+The zcat command in Unix-like operating systems is used to concatenate and display the contents of compressed files. It's particularly useful for viewing the contents of gzip-compressed files without actually having to decompress them to disk.
+
+```
+zcat filename.gz
+```
