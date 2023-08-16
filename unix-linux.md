@@ -22,12 +22,16 @@ An environmental variable, such as the PATH variable, is a named value that hold
 Purpose of the PATH Environment Variable:
 The PATH environment variable is crucial for enabling users to run commands and programs from any location in the file system without specifying the full path to the executable file. When you enter a command in the terminal, the system searches through the directories listed in the PATH to locate the corresponding executable file and execute it. This allows for easy and convenient access to frequently used tools and applications.
 
-Modifying the PATH Environment Variable:
+## Modifying the PATH Environment Variable:
 To modify the PATH variable, you can use the export command. In the example you provided: export PATH=$PATH:/new/directory, you are appending a new directory (/new/directory) to the existing PATH value ($PATH). This ensures that the shell will also look for executable files in the newly added directory when you enter commands.
 
 Environmental variables play a significant role in configuring and customizing the behavior of the Unix/Linux environment, and understanding how to manage them is essential for effective system usage and software development.
 
 
+
+
+## What is path?
+The PATH environment variable contains a list of directories where the system looks for executable files. To modify it, use the export command, like: export PATH=$PATH:/new/directory. in this question, what is an environmental variable?
 
 
 ## Why Modifying the PATH Environment Variable:
@@ -51,7 +55,3 @@ Overall, modifying the PATH variable provides flexibility, customization, and co
 
 
 
-
-
-## What is path?
-The PATH environment variable contains a list of directories where the system looks for executable files. To modify it, use the export command, like: export PATH=$PATH:/new/directory. in this question, what is an environmental variable?
